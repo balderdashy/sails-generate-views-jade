@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-views-jade",
-  "version": "0.10.1",
+  "version": "0.10.2",
   "description": "Generate a views-jade for Sails.",
   "main": "lib/index.js",
   "scripts": {
