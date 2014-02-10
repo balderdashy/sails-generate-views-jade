@@ -22,7 +22,7 @@ $ npm install sails-generate-views-jade
 ##### On the command line
 
 ```sh
-$ sails generate views-jade 
+$ sails generate views-jade
 ```
 
 ##### In a node script
