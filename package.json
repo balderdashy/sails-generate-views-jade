@@ -24,11 +24,9 @@
     "reportback": "*",
     "fs-extra": "*"
   },
-  "sails": {
-    "generator": {
+  "sailsGenerator": {
       "type": "views-jade",
       "behavior": "overrides `sails generate views-jade`",
       "sailsVersion": "~0.10.0"
-    }
   }
 }
