@@ -1,6 +1,6 @@
 {
   "name": "sails-generate-views-jade",
-  "version": "0.10.2",
+  "version": "0.10.3",
   "description": "Generate a views-jade for Sails.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,8 +25,8 @@
     "fs-extra": "*"
   },
   "sailsGenerator": {
-      "type": "views-jade",
-      "behavior": "overrides `sails generate views-jade`",
-      "sailsVersion": "~0.10.0"
+    "type": "views-jade",
+    "behavior": "overrides `sails generate views-jade`",
+    "sailsVersion": "~0.10.0"
   }
 }
