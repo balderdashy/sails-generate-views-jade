@@ -28,5 +28,13 @@
     "type": "views-jade",
     "behavior": "overrides `sails generate views-jade`",
     "sailsVersion": "~0.10.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/balderdashy/sails-generate-views-jade.git"
+  },
+  "bugs": {
+    "url": "https://github.com/balderdashy/sails-generate-views-jade/issues"
+  },
+  "homepage": "https://github.com/balderdashy/sails-generate-views-jade"
 }
