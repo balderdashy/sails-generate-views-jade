@@ -1,7 +1,10 @@
 doctype html
 html
   head
-    title= title
+    if locals.title
+      title= title
+    else
+      title New Sails App
 
     // Viewport mobile tag for sensible mobile support
     meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
@@ -11,7 +14,7 @@ html
       ==============================
 
       You can always bring in CSS files manually with `<link>` tags, or asynchronously
-      using a solution like AMD (RequireJS).  Or, if you like, you can take advantage 
+      using a solution like AMD (RequireJS).  Or, if you like, you can take advantage
       of Sails' conventional asset pipeline (boilerplate Gruntfile).
 
       By default, stylesheets from your `assets/styles` folder are included
@@ -27,6 +30,7 @@ html
           + Use a different or additional preprocessor, like SASS, SCSS or Stylus
 
     // STYLES
+    link(rel="stylesheet", href="/styles/importer.css")
     // STYLES END
 
     block styles
@@ -55,6 +59,7 @@ html
             stringfile before they're served.
 
     // TEMPLATES
+
     // TEMPLATES END
 
     //-
@@ -62,7 +67,7 @@ html
       ========================
 
       You can always bring in JS files manually with `script` tags, or asynchronously
-      on the client using a solution like AMD (RequireJS).  Or, if you like, you can 
+      on the client using a solution like AMD (RequireJS).  Or, if you like, you can
       take advantage of Sails' conventional asset pipeline (boilerplate Gruntfile).
 
       By default, files in your `assets/js` folder are included here
@@ -78,5 +83,6 @@ html
           + Use a different preprocessor, like TypeScript
 
     // SCRIPTS
+    script(src="/js/dependencies/sails.io.js")
     // SCRIPTS END
 
