@@ -6,10 +6,10 @@
 The latest stable version in npm is always a safe bet.
 
 ```sh
-$ npm install sails-generate-views-jade
+$ npm install sails-generate-views-pug
 ```
 
-[![NPM](https://nodei.co/npm/sails-generate-views-jade.png?downloads=true&stars=true)](https://nodei.co/npm/sails-generate-views-jade/)
+[![NPM](https://nodei.co/npm/sails-generate-views-pug.png?downloads=true&stars=true)](https://nodei.co/npm/sails-generate-views-pug/)
 
 
 
@@ -78,4 +78,4 @@ If you feel that yours is the better approach, and should be the default, share 
 
 
 
-[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8acf2fc2ca0aca8a3018e355ad776ed7 "githalytics.com")](http://githalytics.com/balderdashy/sails-generate-views-jade/FAQ.md)
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8acf2fc2ca0aca8a3018e355ad776ed7 "githalytics.com")](http://githalytics.com/balderdashy/sails-generate-views-pug/FAQ.md)

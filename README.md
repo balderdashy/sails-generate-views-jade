@@ -1,9 +1,9 @@
 ![image_squidhome@2x.png](http://i.imgur.com/RIvu9.png)
 
-# sails-generate-views-jade
+# sails-generate-views-pug
 
 
-A `views-jade` generator for use with the Sails command-line interface.
+A `views-pug` generator for use with the Sails command-line interface.
 
 
 ### Installation
@@ -12,7 +12,7 @@ Certain generators are installed by default in Sails, but they can be overridden
 
 <!--
 ```sh
-$ npm install sails-generate-views-jade
+$ npm install sails-generate-views-pug
 ```
 -->
 
@@ -22,7 +22,7 @@ $ npm install sails-generate-views-jade
 ##### On the command line
 
 ```sh
-$ sails generate views-jade 
+$ sails generate views-pug 
 ```
 
 ##### In a node script
@@ -33,7 +33,7 @@ var sailsgen = require('sails-generate');
 var scope = {
 	rootPath: path.resolve(__dirname)
 };
-sailsgen(require('sails-generate-views-jade'), scope, function (err) {
+sailsgen(require('sails-generate-views-pug'), scope, function (err) {
 	if (err) throw err;
 
 	// It worked.
@@ -46,8 +46,8 @@ sailsgen(require('sails-generate-views-jade'), scope, function (err) {
 To get started quickly and see this generator in action, run the `bin/index.js` script:
 
 ```sh
-$ git clone YOUR_FORK_OF_THIS_REPO sails-generate-views-jade-fork
-$ cd sails-generate-views-jade-fork
+$ git clone YOUR_FORK_OF_THIS_REPO sails-generate-views-pug-fork
+$ cd sails-generate-views-pug-fork
 $ npm install
 $ node ./bin
 ```

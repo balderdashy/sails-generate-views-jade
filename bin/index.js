@@ -14,10 +14,10 @@ var sailsgen = require('sails-generate')
 //
 
 var scope = {
-	generatorType: 'views-jade',
+	generatorType: 'views-pug',
 	rootPath: process.cwd(),
 	modules: {
-		'views-jade': path.resolve(__dirname, '../lib')
+		'views-pug': path.resolve(__dirname, '../lib')
 	},
 
 	// For the NEW generator we're generating:

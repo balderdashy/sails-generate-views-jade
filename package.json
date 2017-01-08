@@ -1,12 +1,14 @@
 {
-  "name": "sails-generate-views-jade",
-  "version": "0.10.4",
-  "description": "Generate a views-jade for Sails.",
+  "name": "sails-generate-views-pug",
+  "version": "0.0.0",
+  "description": "Generate a views-pug for Sails.",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
+    "views-pug",
+    "pug",
     "views-jade",
     "generator",
     "sails",
@@ -25,16 +27,16 @@
     "fs-extra": "*"
   },
   "sailsGenerator": {
-    "type": "views-jade",
-    "behavior": "overrides `sails generate views-jade`",
+    "type": "views-pug",
+    "behavior": "overrides `sails generate views-pug`",
     "sailsVersion": "~0.10.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/balderdashy/sails-generate-views-jade.git"
+    "url": "https://github.com/balderdashy/sails-generate-views-pug.git"
   },
   "bugs": {
-    "url": "https://github.com/balderdashy/sails-generate-views-jade/issues"
+    "url": "https://github.com/balderdashy/sails-generate-views-pug/issues"
   },
-  "homepage": "https://github.com/balderdashy/sails-generate-views-jade"
+  "homepage": "https://github.com/balderdashy/sails-generate-views-pug"
 }
