@@ -1,24 +1,26 @@
 extends ./layout
 
-//
-  |
-  |   ____   ___   ___
-  |  | ___| / _ \ / _ \
-  |  |___ \| | | | | | |
-  |   ___) | |_| | |_| |
-  |  |____/ \___/ \___/
-  |
-  | This is the default "500: Server Error" page.
-  |
-  | User agents that don't "Accept" HTML will see a JSON version instead.
-  | You can customize the control logic for your needs in `config/500.js`
-  |
-  | Sails responds to a request with a "500: Server Error" state when
-  | either `next(err)` is called in a controller or policy, or your app
-  | throws an error.
 
 block body
-  link(href='http://sailsjs.org/styles/fonts.css', rel='stylesheet')
+  //
+    |
+    |   ____   ___   ___
+    |  | ___| / _ \ / _ \
+    |  |___ \| | | | | | |
+    |   ___) | |_| | |_| |
+    |  |____/ \___/ \___/
+    |
+    | This is the default "500: Server Error" page.
+    |
+    | User agents that don't "Accept" HTML will see a JSON version instead.
+    | You can customize the control logic for your needs in `config/500.js`
+    |
+    | Sails responds to a request with a "500: Server Error" state when
+    | either `next(err)` is called in a controller or policy, or your app
+    | throws an error.
+
+
+  link(href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,600' rel='stylesheet')
   style.
     /* Styles included inline since you'll probably be deleting this page anyway */
     html,body{text-align:left;font-size:1em}html,body,img,form,textarea,input,fieldset,div,p,div,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,pre,code{margin:0;padding:0}ul,li{list-style:none}img{display:block}a img{border:0}a{text-decoration:none;font-weight:normal;font-family:inherit}*:active,*:focus{outline:0;-moz-outline-style:none}.clearfix:after{clear:both;content:".";display:block;font-size:0;height:0;line-height:0;visibility:hidden}.errorpage .ocean{background:url('http://sailsjs.com/images/waves.png') #0c8da0 no-repeat center 0;height:315px}.errorpage .ocean img{margin-right:auto;margin-left:auto}.errorpage .waves{display:block;padding-top:25px;margin-right:auto;margin-left:auto}.errorpage .main{display:block;margin-top:90px}.errorpage .logo{width:150px;margin-top:3.5em;margin-left:auto;margin-right:auto}.errorpage .fishy{display:block;padding-top:27px}.errorpage .help, .errorpage .error{padding-top:2em}.errorpage h1{font-family:"Open Sans","Myriad Pro",Arial,sans-serif;font-weight:bold;font-size:1.7em;color:#001c20;text-align:center}.errorpage h2{font-family:"Open Sans","Myriad Pro",Arial,sans-serif;font-weight:300;font-size:1.5em;color:#001c20;text-align:center}.errorpage p{font-family:"Open Sans","Myriad Pro",Arial,sans-serif;font-size:1.25em;color:#001c20;text-align:center}.errorpage a{color:#118798}.errorpage a:hover{color:#b1eef7}
@@ -40,7 +42,7 @@ block body
         p.error
           | A team of highly trained sea bass is working on this as we speak.
           br
-          | If the problem persists, please
+          | If the problem persists, please 
           a(href="mailto://you@your-domain.com") contact the system administrator
           |  and inform them of the time that the error occured, and anything you might have done that may have caused the error.
 
