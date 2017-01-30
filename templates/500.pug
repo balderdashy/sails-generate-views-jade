@@ -35,9 +35,9 @@ block body
     .main
       h1 Internal Server Error
       h2 Something isn't right here.
-      if (typeof data !== 'undefined')
+      if (typeof error !== 'undefined')
         pre.error
-          code= data
+          code= error
       else
         p.error
           | A team of highly trained sea bass is working on this as we speak.
